@@ -1,8 +1,126 @@
+/* CONTENT */
+a:focus {color:#2288bb;outline:thin dotted;}
+a:link,a:visited{color:#888888;transition:color 0.4s ease-in;-webkit-transition:color 0.4s ease-in;-moz-transition:color 0.4s ease-in;outline:none;color:#262626;text-decoration:none;}
+a:active, a:hover {color:#33aaff;text-decoration:none;outline:none;}
+::-webkit-scrollbar{width:7px;height:7px;background:#EEE;}
+::-webkit-scrollbar-thumb{background:#999;}
+.widget ul,.section,.widget{padding:0;margin:0;}
+#clear,.clear{clear:both;display:block;}
+#navbar-iframe,.post-feeds,.feed-links,.quickedit{display:none;}
+img{max-width:100%;height:auto;border:0;vertical-align:middle;color:transparent;}
+body *{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;transition: all 0.7s cubic-bezier(0.45, 0.05, 0.55, 0.95);}
+a *{transition:all 0.4s ease-in;-webkit-transition:all 0.4s ease-in;-moz-transition:all 0.4s ease-in;}
+body{line-height: normal;font: 14px; font-family:"Quicksand",sans-serif; !important;background:#d6d6d657;}
+abbr {text-decoration:none;outline:none}
+#layout nav{display:none;}
+#layout ul{display:none;}
+#layout .foot{float:left;width:300px;}
+#layout .cnanim:before{content: "Random Post Anime";padding: 7px 0;display: block;}
+#layout #sidebar-wrapper2 {width:100%;}
+#layout #sidebar2:before{content:"Slot Iklan";padding:7px 0;display:block;}
+#layout #sidebar:before{content:"Sidebar";padding:7px 0;display:block;}
+#layout #sidebar-wrapper h4, #layout #sidebar-wrapper2 h4, #layout #menu, #layout #wiburekomended {display:none}
+/* Header Wrap */
+#header{margin:0 auto 0;overflow:hidden;height:155px;background: #34495e url(https://1.bp.blogspot.com/-NsCsokSmPi4/XWZ76u4vokI/AAAAAAAAOCo/NskwcKqEXAk8zNffoafhnTM3kso9BXUKQCLcBGAs/s1600/otaku.png);}
+.header h1.title,.header h2.title{color:#333;margin:0;padding:0;font:normal 400 27px "Open Sans",Arial,sans-serif;}
+.header h1.title a,.header h2.title a{color:#333;}
+.header h1.title a:hover,.header h2.title a:hover{color:#333;}
+.header .description{position:relative;margin-top:17px;margin-left:10%;width:100%;text-align:left;color:#fff;font-size:1em;font-weight:500;text-shadow:1px 1px 1px rgba(0,0,0,0.5)}
+#header-inner:hover img{opacity:.8;filter:alpha(opacity=80);}
+#header-inner img {width: 524px;margin-left: 13%;height: auto;}
+.titlewrapper{position:relative;margin-top:34px;margin-left:10%;left:0;width:50%;text-align:left;color:#fff;font-size:2.5em;font-weight:600;text-shadow:1px 1px 1px rgba(0,0,0,0.5)}
+/*Featured Resources*/
+.kolor{color: #555;font-size: 12px;line-height: 18px;display: block;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}.titlewrapper a{color:#fff}
+/* Content Wrap */
 #outer-wrapper{background:none;width:1015px;margin:0 auto 10px}
 #content-wrapper{overflow:hidden;padding:10px;margin-top:10px;background:transparent}
 #main-wrapper{overflow:hidden;float:left;width:676px}
 #sticky-sidebar{position:relative}
 #sidebar-wrapper{float:right;width:300px;margin-bottom:16px;line-height:21px}
+/*Komentar Tab*/
+button.komentar-button.cikcuk{font-size:16px;margin:10px 0;background:#2c3e50;color:#fff;padding:10px;border-radius:3px;box-shadow:0 1px 5px rgba(0,0,0,.25);border:none;width:100%;position:relative;text-align:center}
+button.komentar-button.cikcuk:before{content:"\f075";font-family:FontAwesome;font-size:30px;color:white;top:5px;right:7px;position:absolute;text-shadow:none}
+.komentar-tabs-button{display:flex;border-radius:10px}
+#sidebar-wrapper2{float: left;width: 164px;margin-right: 5px;}
+/* WIDGET *//* Popular Post */
+.PopularPosts ul{background:#fff;list-style:none;margin:0;padding:5px 5px 0;overflow:hidden;border-top:none}
+.PopularPosts li,.PopularPosts li img,.PopularPosts li a,.PopularPosts li a img{margin:0;padding:0;list-style:none;border:none;background:none;outline:none}
+.PopularPosts ul{margin:0;list-style:none;color:#64707a}
+.PopularPosts ul li img{background:#fafafa;display:block;margin:0 10px 0 0;border-radius:5px;width:95px;height:100px;overflow:hidden;float:left}
+.PopularPosts ul li{position:relative;background-color:#fff;margin:0;padding:.7em 0!important;border:0;position:relative;border-bottom:1px dotted rgba(0,0,0,0.2)}
+.PopularPosts ul li:before{font-family:fontawesome;content:'\f005\f005';display:inline-block;position:absolute;color:#f39c12;text-align:center;bottom:0;right:0;margin:9px 0;font-size:11px;padding:0;font-weight:normal;line-height:normal;transition:all .3s}
+.PopularPosts ul li:nth-child(1):before{font-family:fontawesome;content:'\f005\f005\f005\f005\f005';}
+.PopularPosts ul li:nth-child(2):before{font-family:fontawesome;content:'\f005\f005\f005\f005';opacity:.9}
+.PopularPosts ul li:nth-child(3):before{font-family:fontawesome;content:'\f005\f005\f005';opacity:.85}
+.PopularPosts ul li:nth-child(4):before{font-family:fontawesome;content:'\f005\f005';opacity:.8}
+.PopularPosts ul li:nth-child(5):before{font-family:fontawesome;content:'\f005';opacity:.75}
+.PopularPosts ul li:hover:before{opacity:1}
+.PopularPosts ul li:first-child{border-top:none}
+.PopularPosts ul li:last-child{border-bottom:none}
+.PopularPosts ul li .item-title a, .PopularPosts ul li a {color: #333;font-size: 15px;}
+.PopularPosts ul li a:hover{color:#2476e0;}
+.PopularPosts .item-thumbnail{margin:0;}
+.PopularPosts .item-snippet{display:none}
+.PopularPosts .item-title{font-weight:700;padding-bottom:.2em;padding-top:13px}
+.Label .widget-content li{padding-right:14px;display:block;position:relative;padding-left:17px;margin-bottom:7px;margin-left:14px;overflow:hidden}
+.Label .widget-content li:before{position:absolute;width:5px;height:5px;background:#673AB7;left:0;top:8px;content:''}
+.widget-content.list-label-widget-content{list-style:none;overflow:auto;background:#fff;border-radius:3px;padding:4px 0;max-height:200px}
+.Label .widget-content a{color:black;font-weight:600;font-size:14px;text-transform:capitalize}
+.hierarchy{list-style:none;padding:0}
+.profile-name-link.g-profile{background:no-repeat;padding-left:20px}
+.profile-img{margin:5px;float:left}
+.sidebar .widget{margin-bottom:12px;margin-bottom:25px;line-height:21px;background:#fff;border-radius:3px;-webkit-border-radius:5px;-moz-border-radius:3px;box-shadow:1px 3px 8px #0000001a}
+.sidebar .widget h2 .fa,.sidebar .widget h3 .fa{float:right;padding-top:3px}
+/*Anime List Otomatis*/
+#sitemap5{font-size:14px;font-weight:400}
+#sitemap5 .judul{display:none}
+#sitemap5 a{transition:all .3s ease;line-height:24px;font-size:15px;font-weight:600;color:#444!important;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;text-decoration:none}
+#sitemap5 a:hover{color:#000}
+#sitemap5 .isi .abjad{color:#444;padding:10px 15px;font-size:110%;font-weight:600;text-transform:uppercase;position:relative;max-width:80%}
+#sitemap5 ol,#sitemap5 ol li{list-style-type:none}
+#sitemap5 .nav ol{margin:0 0 15px;padding:0;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;align-items:center;justify-content:center}
+#sitemap5 .nav ol li{background-color:#3F51B5;color:#fff;padding:10px 0;cursor:pointer;margin:0 5px 5px 0;text-align:center;text-transform:uppercase;width:40px;border-radius:5px}
+.abjad span{padding:13px 2px 13px 26px;background:#3F51B5;color:white;z-index:9999}
+#sitemap5 .nav ol li:last-child{margin-right:0}
+#sitemap5 .isi ol{max-width:80%;margin-left:5%;padding:0;border-top:0}
+#sitemap5 .isi ol li{list-style:disc;color:#666;margin:0;padding:10px 15px;line-height:1.5em;-webkit-margin-start:0!important}
+#sitemap5 .nav ol li:hover{background:#E91E63;transition:.5s}
+.abjad:after{border-top:6px solid  #3F51B5;position:absolute;bottom:0px;width:100%;content:""}
+@media screen and (max-width:480px){#sitemap5{font-size:13px}#sitemap5 .judul{padding:10px}#sitemap5 .isi .abjad{padding:7px 15px;margin-right: 0px;padding-left: 0px;}}
+@media screen and (max-width:360px){#sitemap5{font-size:12px}#sitemap5 .judul{padding:10px}#sitemap5 .isi .abjad{padding:7px 12px}#sitemap5 .isi ol li{padding:7px 12px}}
+/* Box Download Anime Kanna Template */
+.smokeddl{font-size:12px;font-weight:600;background:#f1f1f1;padding:6px;border-radius:6px}
+.smokeddl .smokettl{padding:10px 10px;color:#FFF;font-size:14px;background:repeating-linear-gradient(-45deg,#333 0,#333 76%,#3F51B5 0,#3F51B5 100%)}
+.smokeddl .smokeurl{margin-top:3px;padding:8px 10px;color:#555;background:#fff;border-bottom:1px solid #ddd}
+.smokeddl .smokeurl a{color:#555}
+.smokeddl .smokeurl a:hover{text-decoration:underline}
+.smokeurl strong{background:#333;padding:8px;border-radius:4px;color:#fff;margin-right:5px}
+/* Heading */
+h1,h2,h3,h4,h5{font-weight:700;}h1{font-size:2em;margin:.67em 0;}h2{font-size:1.5em;margin:.83em 0;}h3{font-size:1.17em;margin:1em 0;}h4{font-size:1em;margin:1.33em 0;}h5{font-size:.83em;margin:1.67em 0;}h6{font-size:.75em;margin:2.33em 0;}
+/* Navigation */
+#menu{margin:auto auto 0 auto;transition:.0s linear;position:relative;z-index:99999;background:#34495E;overflow:hidden;border-bottom:4px solid #6d87db;top:0;color:white;height:57px}
+#menu .menu .current-menu-item a{background:#6d87db;color:#fff}
+.menu{overflow:hidden;margin-left:13%}
+#menu .menu li{float:left;list-style:none}
+#menu .menu li a{display:block;color:white;height:100%;padding:0 15px;margin:0 0;line-height:53px;font-weight:500;font-size:13px;text-transform:uppercase}
+#menu .menu li a:hover {background:#6d87db;color:#fff;text-decoration:none;}
+#menu ul li ul{position: absolute;display: none;z-index: 200;background:#333;}
+#menu ul li:hover ul{display:block}
+#menu ul li ul li {float:none !important; }
+#menu ul li:hover ul li ul {display: none;}
+#menu ul li ul li a{display: block;min-width: 150px;font-size: 12px;font-weight: 400;line-height:30px !important;text-transform: none;padding: 7px 8px;text-align: left;color: #999;}
+#menu ul li ul li a:hover{text-decoration:}
+li.icon{display:none;}
+#form{float:right;position:relative;margin:-45px 15px;background:none;border-radius:5px}
+#form #q{color:#333;font-family:"Open sans",sans-serif;padding:10px 10px;border:none;font-size:14px;border-radius:9px;width:188px;color:#333}
+#pilih{padding:5px 0;background:#fff;color:#333;border:none}
+li.icon{display:none}
+#cari{padding:10px 12px;color:white;background:none;border:none;border-left:1px solid #ddd;cursor:pointer;font-size:16px}
+span.judulmobil{display:none}
+.anon{font-size:15px;margin:0 auto;margin-bottom:12px;position:relative;margin-top:15px;padding:10px 35px;border-radius:5px;max-width:990px;color:#FFF;background:#ffaa51;line-height:18px;text-align:center;overflow:hidden;text-shadow:1px 1px 1px #999}
+.anon::before{font-family:Fontawesome;line-height:normal;font-weight:normal;content:"\f0a2";font-size:25px;color:#ffd5c5;top:5px;left:5px;position:absolute;text-shadow:none}
+.anon::after{font-family:Fontawesome;line-height:normal;font-weight:normal;content:"\f0a2";color:#ffd5c5;font-size:25px;right:5px;top:5px;position:absolute;transform:scale(-1,1);text-shadow:none}
+/* featured Anime*/
 #rekomendednim {background:#f6f6f6;padding: 0px 0px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;margin:auto auto 8px;color:#000}
 #rekomendednim h2{margin: 0;background: #0980d4;float: left;font-size: 11px;font-weight: 600;line-height: 13px;padding: 7px;color: #fff;border-radius: 5px;}
 #rekomendednim a {margin-top: 0;font-size: 12px;color: #555;padding: 0px 7px;font-weight: 500;line-height: 27px;}
@@ -14,10 +132,54 @@
 #wiburekomended li a {color: #555;padding: 6px 8px;float: left;line-height: 11px;font-size: 11px;margin-right: 5px;border-radius: 3px;}
 #wiburekomended li a:hover {text-decoration: none;background:#0980d4;color: #fff;}
 .allf{background:#0980d4;color:#fff !important}
+/*Ongoing List Kanna*/
+#LinkList1 ul li:nth-child(even){background:white}
+#LinkList1 ul li{color:black;font-weight:600;background:#f4f4f4;width:99%;font-size:13px;padding:5px!important;border-bottom:0 solid #ededed!important;overflow:hidden}
+#LinkList1 ul li:before{line-height:normal;content:"New Eps";float:right;right:5px;top:5px;background:#6d87db;width:50px;padding:5px;text-align:center;color:#fff;font-size:11px;font-weight:700;border-radius:2px}
+/* Genres */
 .genres {overflow: hidden;line-height: 21px;}
 .genres li {list-style:none;}
 .genres li a {color: #333;width: 165px;padding: 7px 10px;white-space: nowrap;float: left;display: inline;border: 1px solid #ddd;margin-bottom: 2px;margin-right: 2px;}
 .genres li a:hover {text-decoration: none;background: #eee;transition: 0.3s all ease;}
+/* Anime List */
+.daftarkartun{overflow:hidden;}
+.abjtext{padding:0;text-align:center;margin:0;margin-top:3px;margin-bottom:10px}
+.abjtext a {display: block;font-weight: 700;padding: 4px 0;width: 3.39%;color: #DCDCDC;font-size: 11px;float: left;margin: 1px;background:#333;}
+.abjtext a:hover {text-decoration: none;color:#dcdcdc}
+#abtext{overflow:hidden}.bariskelom{position: relative;margin-bottom: 10px;padding-right: 5px;}
+.barispenz {font-weight: 700;font-size: 12px;border-bottom:3px solid #eee;margin-bottom: 5px;padding: 5px;text-transform: uppercase;position: relative;}
+.barispenz a{color:#666;text-decoration:none}
+.penzbar{lcolor: #ccc;float: left;width: 50%;}
+.jdlbar{line-height: 23px;font-weight: 700;}
+.jdlbar ul{list-style-type: disc;}
+.jdlbar ul li{color:#444 !important;margin-left:20px;}
+.jdlbar a{font-size: 13px;color: #444;font-weight: 500;  }
+.jdlbar a:hover{}
+.post.hentry{width:675px;border-radius:10px;float:left;padding:10px;overflow:hidden;background:#fff;color:#000;box-shadow:0 1px 5px rgba(0,0,0,.25)}
+/* Post */
+.post-body{line-height:25px;font-size:15px;font-weight:500}
+.breadcrumbs span{background:#2980b9;padding:5px 9px;font-size:11px;display:inline-block;color:#fff;font-weight:700;}
+.breadcrumbs a{color:#fff;}
+.post-body img{max-width:75%;display:block;margin:7px auto;}
+h1.entry-title{font-size: 17px;padding-bottom: 5px;color: #444;margin-bottom: 3px;border-bottom: 2px solid #eaeaea;}
+.post-body blockquote{border-left:4px solid;padding:5px 5px 5px 15px;margin:8px 0;}
+.post-body p{padding:5px 0;}
+.post-header{margin:7px 1px 10px;font-family:Open Sans,sans-serif;font-size:13px;line-height:inherit;}
+.post-footer,.post-header{font-size:12px;color:#555;}
+.dte-1 li a{padding:8px;border-bottom:1px solid #ededed;margin-bottom:1px;display:block;font-size:13px;color:#333;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.dte-1 li a .fa{padding-right:9px;}
+.dte-rlh{margin:0;font-size:13px;padding:8px 10px;}
+/*Penulis*/
+.postauthor{background:url(https://www.mikunime.com/wp-content/themes/aaaaaanime/img/bg2.jpg);position:relative}
+.authorava{height:97px;width:auto;overflow:hidden;float:left}
+.authorava img{margin:5px;height:85px;border:3px solid #2196F3;border-radius:99px;width:85px}
+.authorright{position:absolute;top:0;right:0;width:150px;height:0;float:left;padding-right:15px;border-bottom:100px solid #3f51b5;border-left:50px solid transparent}
+.authorright h2{color:#fff!important;text-align:right;float:right;font-size:13px!important;padding-top:0px!important;width:100%;border-bottom:none!Important;border-top:none!Important}
+.authorright h2:before{display:none;}
+.authorright h3{line-height:29px;color:#fff;text-align:right;border-radius:3px;font-size:14px;width:165px;background:#3F51B5;float:right;margin-top:-10px;border:none}
+.authorright h4{line-height:8px;color:#eee;margin-top:11px!Important;margin:0}
+.area{overflow:hidden;box-shadow:0 1px 5px rgba(0,0,0,.25);border-radius:3px;margin-bottom:15px}
+/*Meta Box Anime*/
 .datanime{display:block;overflow:hidden;background:#fff;border-radius:3px;box-shadow:0 1px 5px rgba(0,0,0,.25)}
 .datanime li:nth-child(odd){background:rgb(238,238,238)}
 .datanime li:nth-child(odd){background:rgba(238,238,238,0.51)}
@@ -25,6 +187,12 @@
 .datanime li b{display:block;float:left;width:110px}
 .datanime li:hover{white-space:normal;background:#34495ec4;color:#fff}
 span.bapaq{border-bottom:solid 4px #E91E63;font-size:17px;padding-bottom:5px;display:block;font-weight:600;color:#333;position:relative}
+/*Foot Menu*/
+.foot-menu{text-align:center;width:100%;overflow:hidden;padding:0 1px;display:block;background:#6d87db;margin:0 auto;color:white}
+ul#menu-menu-2{overflow:hidden;list-style:none;margin:0;padding:0}
+li.menu-bawah{display:inline-block!important;font-size:13px;padding:8px;line-height:15px;font-weight:700;font-size:13px;transition:.3s;color:white}
+.menu-bawah a{color:white}
+/* Grid Recent Post by Label */
 ul.recent-by-tag{overflow:hidden;padding:0 6px;background:white;float:none;margin:0 auto;margin-bottom:21px;width:100%;border-bottom-right-radius:10px;border-bottom-left-radius:10px;box-shadow:0 1px 5px rgba(0,0,0,.25)}
 .recent-by-tag img{width:100%;height:150px;margin-right:10px;margin-bottom:5px;border-top-left-radius:10px;border-top-right-radius:10px}
 .recent-by-tag li{width:160px;border-radius:10px;margin-top:10px;margin-bottom:6px;margin-right:6px;text-align:center;list-style:none;padding:0;box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);background:white;line-height:1.3em!important;display:inline-block}
@@ -35,6 +203,29 @@ ul.recent-by-tag{overflow:hidden;padding:0 6px;background:white;float:none;margi
 .recent-by-tag .btndown{display:none}
 @media screen and (max-width:640px) {ul.recent-by-tag{padding:0;margin-left:10px}}
 @media screen and (max-width:480px) {ul.recent-by-tag{margin-left:0}}
+/* Related Post Grid by igniel.com */
+#ignielRelated{display:block;margin:20px 0;line-height:1.5em}
+#ignielRelated h3.title{font-size:16px;font-weight:600;text-align:center;text-transform:uppercase;line-height:initial;background:#34495e;padding:10px;border-radius:6px}
+#ignielRelated h3.title span{background-color:#34495e;padding:0 15px;color:white;position:relative;z-index:1}
+#ignielRelated h3.title:before{content:'';display:block;position:relative;top:10px;width:100%;border-top:2px dotted #cccccc}
+#ignielRelated ul{margin-left:15px;width:100%;display:-webkit-flex;flex-wrap:wrap;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap}
+#ignielRelated ul li{list-style:none;width:calc((100% / 3) - 15px);text-align:center;margin-right:5.5pt;margin-bottom:9px;padding:0;-webkit-margin-start:0!important;position:relative;overflow:inherit}
+#ignielRelated ul li .thumb{overflow:hidden;line-height:0;border-radius:7px;position:relative}
+#ignielRelated ul li:nth-of-type(3n){margin-right:0}
+#ignielRelated ul li a{border-radius:5px;display:block;position:relative}
+#ignielRelated ul li a.judul{color:#000;/* Warna Huruf */
+  font-weight:600;margin-top:7px}
+#ignielRelated ul li a.judul:hover,#ignielRelated ul li:hover a.judul{color:#ff5722;/* Warna Huruf Ketika Disorot */}
+#ignielRelated ul li a img{width:100%;max-height:143px;transition:all .3s ease;border:0;margin:0;position:relative;overflow:hidden}
+#ignielRelated ul li a.judul{font-size:13px;position:absolute;text-align:center;width:100%;bottom:0;height:55px;padding:6px;font-weight:600;background:rgba(0,0,0,.5);color:white;overflow:hidden}
+#ignielRelated ul li a img:hover,#ignielRelated ul li:hover img{transform:scale(1.1) rotate(-5deg);filter:brightness(75%);-webkit-filter:brightness(75%)}
+#ignielRelated .norelated{text-align:center;font-weight:600}
+@media screen and (max-width:480px){#ignielRelated ul li{width:calc((100% / 2) - 7.5px);margin-right:15px;margin-bottom:15px}#ignielRelated ul li:nth-of-type(3n){margin-right:15px}#ignielRelated ul li:nth-of-type(2n){margin-right:0}}
+.related-post h4{display:none}
+.at-dlbox{display:block;margin:10px auto}
+.post img.firstimage{width:100%;height:auto;max-width:100%;margin:auto;display:block}
+.post-body .separator:nth-child(1){display:none}
+/* RECOMENDED ANIME */
 .hitsdah{overflow:hidden;float:left;background:#FFF;border:1px solid #DDD;padding:4px;border-left:0;width:830px;font-size:14px}
 #rslides-container{margin-bottom:15px}
 #hits{margin:0;padding:0;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
@@ -47,12 +238,81 @@ ul.recent-by-tag{overflow:hidden;padding:0 6px;background:white;float:none;margi
 .rslides{position:relative;list-style:none;overflow:hidden;width:100%;padding:0;margin:0}
 .rslides li{margin:0;position:relative;display:block;-webkit-backface-visibility:hidden;position:absolute;display:none;width:100%;left:0;top:0}
 .rslides li:first-child{position:relative;display:block;float:left}
+/* Comments */
+.comment_h4{font-size:13px;padding:9px 13px;margin:5px 0 0;color:#fff}
+#comment_block{padding:15px;border:1px solid #ddd;border-top:0;line-height:23px}
+.comment_avatar{border-radius:100%;overflow:hidden;float:left;width:45px;height:45px;margin-right:15px;background:url(//1.bp.blogspot.com/-DEoQ6Q9sgPc/VchjxASQzxI/AAAAAAAAEY0/_C_Rk0uxxPc/s1600/avatar.jpg)no-repeat center center;background-size:100%}
+.comment_child .comment_avatar{border-radius:2px;height:38px;width:38px}
+.cm_user{color:#333!important;padding-right:7px;font-weight:700;font-size:12px}
+.comment_date{color:#999;padding-left:5px;display:inline-block}
+.cm_head{overflow:hidden}
+.comment_opsi{display:none}
+#comment-editor{height:290px}
+#comment_block > div > .comment_child{padding:0;margin:8px auto;margin-left:60px}
+#comment_block > div{border-bottom:1px solid #ddd;padding-bottom:15px;margin-bottom:16px}
+.comment_body p{overflow:hidden;font-size:12px}
+.comment_child > div{margin:15px 0 17px}
+.comment_child > div > .comment_child > div{padding-top:6px}
+#comment_block > div > .comment_child > .comment_wrap:first-child{border-top:1px solid #ddd;padding-top:15px;margin-bottom:5px}
+#comment_block > div > div > .comment_opsi{display:block;margin-top:5px;margin-bottom:-6px;margin-left:60px;color:#999}
+.comment_opsi a{color:#999}
+.comment_form{background-color:#FAFAFA;border-top:0;border:1px solid #dedede}
+.comment_form iframe,.comment-form iframe{width:100%;max-height:250px}
+.comment-form p{padding:11px 14px;margin:10px;background-color:#FFFFE5;color:#333;font-size:12px;line-height:22px;border:1px solid #EDEDB1}
+.comment_reply_form > div{padding:10px;background-color:#FAFAFA;border:1px solid #F0F0F0}
+.comment_reply_form > div > p{margin:6px auto 15px}
+.comment_form > a:first-child{padding:10px;border-radius:4px;margin:10px;display:block;text-align:center;color:#fff;text-transform:uppercase;font-weight:700;font-size:14px}
+.at-dlttle{padding:7px;display:block;color:#fff;font-weight:700;font-size:13px;padding-left:12px;position:relative}
+.at-dlttle:before{content:"\f07c";font-family:Fontawesome;position:absolute;right:15px;color:#fff;font-size:16px}
+.at-dlar{display:block;padding:10px;background:#FAFCFF}
+.at-dlar a{border-right:1px solid #ddd;padding-right:14px;padding-left:14px}
+.at-dlar a:last-child{border:0}
+.at-dlar a:first-child{padding-left:7px}
+.nav_comtab{margin:10px 0 7px;display:none}
+.nav_comtab li{cursor:pointer;float:left;text-align:center;width:50%;padding:7px 10px 10px;color:#FFF;text-transform:uppercase;font-size:13px;-webkit-user-select:none}
+.nav_comtab li:nth-child(1){background:#F2802A}
+.nav_comtab li:nth-child(2){background:#1E89E4}
+.nav_comtab li .fa{display:inline-block;font-size:15px}
+.nav_comtab li h4{margin:0}
+/* Featured Random Post */
+#kolor{background:white;display:block;width:100%;border-top:2px solid #673AB7;height:235px;padding:11px;padding-left:20px;box-shadow:1px 3px 8px #0000001a;border-bottom-right-radius:10px;border-bottom-left-radius:10px;margin-bottom:25px}
 #kolor li{list-style:none;margin-right:0;background:white;margin-bottom:10px;float:left;margin:7px 4px;max-height:220px;overflow:inherit;position:relative}
 #kolor a.title-article{font-size:13px;position:absolute;text-align:center;bottom:0;width:150px;height:70px;padding:6px;font-weight:600;color:white;background: #673ab7cf;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;}
 .zeeb{overflow:hidden;width:150px;position:relative;box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);border-radius: 10px;}
 .zeeb img:hover{transform:scale(1.1) rotate(-5deg);filter:brightness(75%);-webkit-filter:brightness(75%)}
 .zeeb img{width:150px;height:200px;object-fit:cover;}
 a.genred{padding-right:7px}
+/* Share */
+.socialshare h3{float:left;margin-right:10px;line-height:30px;font-size:15px;font-weight:500}
+.socialshare a{padding:9px;margin-top:10px;margin-right:10px;line-height:20px;font-size:12px;border-radius:8px;font-weight:600;transition:.2s linear;text-align:center;color:white;text-decoration:none;display:inline-block;width:201px}
+.socialshare span{font-size:16px!important;line-height:18px;width:15px;}
+.socialshare a:hover{text-decoration:none;color:#fff;}
+.socialshare{margin:auto;text-align:centerl;}
+.socialshare .sfb:hover{background:#1D459A;opacity:1;}
+.socialshare .stw:hover{background:#006dde;opacity:1;}
+.socialshare .sgp:hover{background:#D01212;opacity:1;}
+.socialshare .sfb{background:#2d467b;}
+.socialshare .stw{background:#2380e0;}
+.socialshare .sgp{background:#de2727;}
+.icons,.icons-before:before{display:inline-block;width:20px;height:20px;font-size:20px;line-height:1;font-family:Fontawesome;text-decoration:inherit;font-weight:400;font-style:normal;vertical-align:top;text-align:center;-webkit-transition:color .1s ease-in 0;transition:color .1s ease-in 0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.icons-facebook-alt:before{content:"\f09a";}
+.icons-twitter:before{content:"\f099";}
+.icons-googleplus:before{content:"\f0d5";}
+.tagser{margin-top:15px;border:3px solid #673AB7;font-size:11px;height:40px;overflow:overlay;padding:5px;text-align:justify;border-radius:6px}
+.tags{font-size:11px;}
+.moekyun2{background:#262626;height:60px}
+.credit2{display:block;clear:both;padding:10px;color:#fff;text-align:center;}
+.sembrul2{position:relative;margin-top:10px;background:white;padding:5px;text-align:center;border-radius:11px;color:black;display: inline-table;max-width: 265px;}
+.sembrul2 a{color:black}
+#sidebar-wrapper h2{font-size:14px;color:black;padding:12px;font-weight:600;margin-top:0;margin-bottom:0;text-transform:uppercase;border-bottom:2px solid #673AB7;text-align:left;position:relative}
+#sidebar-wrapper h2:before{content:"\f1d9";font-family:FontAwesome;font-size:22px;color:#673AB7;top:13px;font-weight:400;right:7px;position:absolute;text-shadow:none}
+h2.title{font-size:14px;color:white;padding:12px;margin-bottom:0;font-weight:600;border-top-left-radius:10px;border-top-right-radius:11px;background:#6d87db url(https://1.bp.blogspot.com/-NsCsokSmPi4/XWZ76u4vokI/AAAAAAAAOCo/NskwcKqEXAk8zNffoafhnTM3kso9BXUKQCLcBGAs/s1600/otaku.png);text-transform:uppercase;border-bottom:3px solid #673AB7;text-align:left}
+.post.hentry {padding: 8px;width: 99.5%!important;}
+.judulnya h1 {font-size: 19px!important;}
+.JK-Category a:nth-child(3) {display: none;}
+.JK-Category a:nth-child(4) {display: none;}
+.JK-Category a:nth-child(5) {display: none;}
+/* Responsive */
 @media screen and (max-width:680px) {
 .moekyun2{background:#262626;height: 105px;}
 body{background: #f1f1f1;}
@@ -65,6 +325,7 @@ span#top {display: none;}
 #sitemap5 .isi ol li:nth-child(even) {background: #9e9e9e57;width: 100%;}
 #sitemap5 a {font-size:14px;}
 .abjad:after{border-top: 3px solid #3F51B5;bottom: 3px;}
+/* content */
 #outer-wrapper{width:100%;}
 #main-wrapper{float:none!important;width:100%!important;border-right:none!important;margin:0!important;}
 #sidebar-wrapper{width:100%;margin-top:10px;}
@@ -84,6 +345,13 @@ h1.entry-title{font-size:17px;padding-bottom:5px;color:#444;margin-bottom:3px;bo
 h2.entry-title{font-weight:600!important;font-size:15px!important;text-align:center;margin-top:5px!Important;margin-bottom:5px!Important}
 .post.hentry{padding:8px;width:100%!important}
 .article{width:100%;margin:0}
+/*Ad Block*/
+.WgD-position{width: 350px!important;}
+.WgD-container{max-width: 350px!important;height: 340px!important;}
+.WgD-container img{max-width: 95px!important;}
+.WgD-title{font-size: 16px!important;}
+.WgD-text{font-size: 12px!important;}
+.WgD-reload{margin: 0px!important;}
 /* featured */
 #kolor ul li{float:left;width:165px;margin:0 2px;overflow:hidden;padding-bottom:5px;margin-bottom:5px;border-radius:10px;}
 .zeeb{box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);}
