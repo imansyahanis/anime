@@ -279,7 +279,7 @@ ul.recent-by-tag{overflow:hidden;padding:0 6px;background:white;float:none;margi
 .nav_comtab li h4{margin:0}
 /* Featured Random Post */
 #kolor li{list-style:none;margin-right:0;background:white;margin-bottom:10px;float:left;margin:7px 4px;max-height:220px;overflow:inherit;position:relative}
-#kolor a.title-article{font-size:13px;position:absolute;text-align:left;bottom:0;width:150px;height:70px;padding:6px;font-weight:600;color:white;background: #673ab7cf;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;}
+#kolor a.title-article{font-size:13px;position:absolute;text-align:left;bottom:0;width:150px;height:70px;padding:6px;font-weight:600;color:white;background: #673ab7cf;border-bottom-left-radius: 10px;border-bottom-right-radius: 20px;}
 .zeeb{overflow:hidden;width:150px;position:relative;box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);border-radius: 10px;}
 .zeeb img:hover{transform:scale(1.1) rotate(-5deg);filter:brightness(75%);-webkit-filter:brightness(75%)}
 .zeeb img{width:150px;height:200px;object-fit:cover;}
