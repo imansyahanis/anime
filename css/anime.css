@@ -356,8 +356,7 @@ h2.entry-title{font-weight:600!important;font-size:15px!important;text-align:cen
 .WgD-text{font-size: 12px!important;}
 .WgD-reload{margin: 0px!important;}
 /* featured */
-#kolor ul li{float:left;width:165px;margin:0 2px;overflow:hidden;padding-bottom:5px;margin-bottom:5px;border-radius:10px;}
-.zeeb{box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);}
+
 #kolor ul li img{float:left;width:165px;height:200px;}
 #kolor a.title-article{width:165px;}
 /* credit */
