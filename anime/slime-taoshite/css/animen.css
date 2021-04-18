@@ -1,0 +1,649 @@
+body.darkmode {
+    background: #1a1a1a;
+    color: #eee;
+}
+.darkmode .download-eps {
+    background: #222;
+}
+.darkmode .kwbos {
+    background: #333!important;
+    border-color: #333!important;
+    color: #ccc!important;
+}
+.infoeps span {
+    color: #000!important;
+}
+
+.darkmode .infoeps span {
+    color: #ccc!important;
+}
+.darkmode .download-eps ul li {
+    background: #333;
+}
+
+.darkmode .download-eps ul li a {
+    color: #ccc;
+}
+
+.darkmode .download-eps ul li strong {
+    border-color: #333;
+}
+
+.darkmode .post-show ul li .dtla h2 a {
+    color: #ccc;
+}
+
+.darkmode .post-show ul li .dtla span {
+    color: #999;
+}
+.darkmode .filtersearch form {
+    background: #2c2c2c;
+}
+.darkmode .widget.az-list .items {
+    border-color: #333;
+}
+.darkmode .pagination {
+    border-color: #333;
+}
+.darkmode .noschedule {color:#999}
+.darkmode .stooltip {
+    background: #333333!important;
+    border-color: #333333!important;
+}
+.darkmode .filtersearch .radio {
+    color: #ccc;
+}
+.darkmode .icon.turnedOff {
+    background: #333;
+}
+.darkmode .checkfilx {
+    background: #555;
+}
+
+.darkmode .checkfil {
+    background: #555;
+}
+.darkmode .archiveanime-rating-bar:before {
+    color: #555;
+}
+.darkmode .episodeinf .infoanime .infox .desc {
+    color: #888;
+}
+
+.darkmode .plepslist .lstepsiode {
+    background: #333;
+}
+.darkmode .load_slider {
+    background: #333;
+}
+.darkmode a#east_logout {
+    background: #333;
+}
+.darkmode .rating-area {
+    background: #333;
+    border-color: #333;
+}
+.darkmode .stooltip .metadata {
+    background: #222222a6;
+}
+
+.darkmode .stooltip .ttls {
+    border-color: #444;
+}
+
+.darkmode .stooltip .genres .mta a {
+    color: #ccc;
+    border-color: #444;
+}
+.darkmode .pagination a {
+    border-color: #333;
+    color: #ccc;
+}
+
+.darkmode .pagination span {
+    color: #ccc;
+    border-color: #333;
+}
+.darkmode .widget_senction {
+    border-color: #333;
+}
+.darkmode #primary-menu {
+    background: #222;
+}
+
+.darkmode .live-search {
+    background: #222;
+}
+
+.darkmode .live-search ul li .title {
+    color: #ccc;
+}
+
+.darkmode .live-search ul li {
+    border-color: #333;
+}
+
+.darkmode .live-search ul li:hover {
+    background: #333;
+}
+
+.darkmode .live-search .info .genre {
+    color: #999;
+}
+
+.darkmode .live-search ul li .score {
+    color: #999;
+}
+
+.darkmode .animetitle-episode {
+    color: #ccc;
+}
+.darkmode .lgsg_form {
+    background: #222;
+    color: #ccc;
+}
+.darkmode .side-account .tab-account {
+    background: #333;
+}
+
+.darkmode .side-account a {
+    color: #ccc;
+}
+.darkmode .lgsg_form header h1 {
+    color: #ccc;
+}
+.darkmode form.update_profile fieldset input[type="text"], .darkmode form.update_profile fieldset input[type="password"] {
+    background: #333;
+    border-color: #333;
+    color: #ccc;
+}
+.darkmode .info_episode .epx .lg {
+    background: #333;
+    color: #ccc;
+}
+.darkmode form.update_profile fieldset select {
+    background: #333;
+    border-color: #333;
+    color: #ccc;
+}
+.darkmode #breadcrumbs li a {
+    color: #ccc;
+}
+.darkmode .entry-header h1 {
+    color: #fff;
+}
+
+.darkmode .info_episode .epx {
+    color: #ccc;
+}
+.darkmode .entry-header{border-color: #333}
+.darkmode .sttle {
+    border-color: #333;
+}
+.darkmode blockquote p {
+    color: #ccc;
+}
+
+.darkmode blockquote {
+    background: #33333382;
+}
+.darkmode .post_taxs {
+    border-color: #333;
+}
+.darkmode .commentarea h3 {
+    color: #ccc;
+}
+.darkmode .mode_post a.enable{background:#333;color:#fff}
+.darkmode .widget-title h1 {
+    color: #fff;
+}
+.darkmode .lgsg_form fieldset label {
+    color: #ccc;
+}
+
+.darkmode .lgsg_form fieldset input[type="text"], .darkmode .lgsg_form fieldset input[type="password"] {
+    background: #333;
+    border-color: #333;
+    color: #ccc;
+}
+.darkmode .ajax-auth h1, .darkmode .ajax-auth h3 {
+    color: #ccc;
+}
+.darkmode form.ajax-auth {
+    background: #222;
+    color: #ccc;
+}
+.darkmode a.posts_tags {
+    background: #333!important;
+}
+
+.darkmode #respond #comment {
+    background: #333;
+    border-color: #333;
+}
+
+.darkmode #respond input {
+    background: #333;
+    border-color: #333;
+}
+
+.darkmode .sharesection b {
+    color: #ccc;
+    border-color: #333;
+}
+
+.darkmode .lstepsiode ul li {
+    border-color: #333;
+}
+.darkmode .blog-post .box-blog h2 a {
+    color: #ccc;
+}
+
+.darkmode .blog-post .box-blog .exp p {
+    color: #999;
+}
+.darkmode .lstepsiode ul li:hover {
+    background: #292929;
+}
+.darkmode .anime.infoanime .infox .spe b {
+    border-color: #333;
+}
+
+.darkmode .anim-senct {
+    border-color: #333;
+}
+
+.darkmode .noteps {
+    color: #ccc;
+    background: #333;
+}
+
+.darkmode #fav-count {
+    color: #999;
+}
+.darkmode .non {
+    background: #333;
+    border-color: #333;
+    color: #ccc;
+}
+
+.darkmode .letter_az {
+    border-color: #333;
+}
+.darkmode .listeps a {
+    color: #ccc;
+}
+
+.darkmode .listeps a:visited {
+    color: #777;
+}
+.darkmode .header-area{
+}
+
+.darkmode .animepost .animposx .title {
+    color: #ccc;
+}
+
+.animepost .animposx .data .type {
+    color: #999;
+}
+
+.darkmode .animepost .animposx .data .plyepisode {
+    color: #999;
+}
+.darkmode .widget-title span,.darkmode .widget-title h3 {
+    color: #fff!important;
+}
+
+.darkmode .tax_fil {
+    color: #ccc;
+}
+
+.darkmode .filter-sort li label {
+    color: #ccc;
+}
+
+.darkmode .radiox {
+    color: #ccc;
+}
+
+.darkmode .filterss {
+    color: #ccc!important;
+    border-color: #333!important;
+    background: #333;
+}
+
+.darkmode #sidebar .widgets h3 {
+    color: #fff;
+}
+.darkmode .letter_home ul.lttr_azhome li a {
+    color: #ccc;
+}
+.darkmode .widgetseries ul li .lftinfo span b{color: #ddd;}
+.darkmode #sidebar .widgetseries ul li .lftinfo h2 a.series {
+    color: #ccc;
+}
+
+.darkmode .widget-title {
+    border-color: #333;
+}
+
+.darkmode .listbar {
+    border-color: #333;
+}
+
+.darkmode .mode_post a.disable {
+    background: #333;
+    color: #ccc;
+}
+.darkmode .content-separate:before {
+    border-color: #333;
+}
+
+.darkmode .filtersearch .filter_title {
+    color: #ccc;
+    border-color: #333;
+}
+
+.darkmode #footer {
+    background: #262626;
+    color: #ccc;
+}
+
+.darkmode .copyright_eastheme {
+    background: #262626;
+    border-color: #333;
+}
+
+.darkmode #foot_nav .footer-widget a {
+    color: #ccc;
+}
+
+.darkmode #footer .footer-desc p {
+    color: #ccc;
+}
+
+.darkmode .letter_home ul.lttr_azhome {
+    background: #262626;
+}
+.darkmode .blog-post li h2 a {
+    color: #ccc;
+}
+
+.darkmode .blog-post li {
+    border-color: #333;
+}
+
+.darkmode .letter_home {
+    border-color: #333;
+}
+
+.darkmode .widgetseries ul li {
+    border-color: #333;
+    color: #ccc;
+}
+.darkmode .animepost .animposx .data_tw .ltseps {
+    background: #333333b8;
+    border-color: #333333b8;
+    color: #ccc;
+}
+
+.darkmode .post-show .animepost .animposx .data {
+    border-color: #333;
+}
+
+.darkmode #sidebar .widgets a {
+    color: #ccc;
+}
+
+.darkmode .widgetseries ul li.onepiece .lftinfo span {
+    color: #ddd!important;
+}
+
+.darkmode .widgetseries ul li.onepiece .lftinfo span a {
+    color: #ddd!important;
+}
+
+.darkmode #sidebar .widgets a.linkwidget {
+    color: #fff;
+}
+.darkmode .recommended {
+    background: #333;
+}
+
+.darkmode .recommended a {
+    color: #ccc;
+}
+.darkmode .widget_senction {
+    background: #222;
+}
+
+.darkmode .naveps .nvs a {
+    color: #ccc;
+}
+
+.darkmode .naveps .nvs.nvsc a {
+    color: #fff;
+}
+
+.darkmode #server ul li .east_player_notice {
+    border-color: #333;
+}
+
+.darkmode .infoanime .infox h1 {
+    color: #fff;
+}
+
+.darkmode .desc .entry-content.entry-content-single p {
+    color: #888;
+}
+
+.darkmode .synop-shadow {
+    background: linear-gradient(0deg,#222 0,hsla(0, 0%, 13%, 0.31) 60%,hsla(0,0%,96.5%,0));
+}
+
+.darkmode .genre-info a {
+    background: #333;
+    border-color: #333;
+    color: #ccc;
+}.darkmode .starstruck-wrap .east_rating_data {
+    border-color: #333;
+}
+.darkmode .widget.az-list .items .item {
+    border-color: #333;
+}
+
+.darkmode .widget.az-list .items .item .info .name {
+    color: #ccc;
+}
+
+.darkmode .starstruck-wrap .east_rating_vgs {
+    background: #333;
+}
+
+.darkmode .starstruck {
+    border-color: #333;
+}
+
+.darkmode .starstruck .star-off-png:before {
+    color: #333;
+}
+
+.darkmode .anime.infoanime {
+    border-color: #333;
+}
+
+.darkmode h3.anim-detail {
+    border-color: #333;
+}
+
+.darkmode .infoanime .infox .spe span {
+    color: #ccc;
+    border-color: #333;
+}
+
+.darkmode .anime.infoanime .infox .spe span:hover {
+    background: #333;
+}
+.darkmode .letterlist a {
+    background: #333;
+    border-color: #333;
+    color: #ccc;
+}
+.darkmode .widget_senction {
+    border-color: #333;
+}
+
+.darkmode #server .east_player_option {
+    background: #333;
+}
+.darkmode .letterlist {
+    border-color: #333;
+}
+.darkmode .video-nav {
+    border-color: #333;
+}
+
+.darkmode #breadcrumbs {
+    border-color: #333;
+}
+
+.darkmode .itemleft .icon span {
+    color: #ccc;
+}
+.darkmode .naveps {
+    background: #222;
+}
+.darkmode .links_table table thead tr {
+    background: #333;
+}
+
+.darkmode .links_table table thead tr th {
+    color: #ccc;
+}
+
+.darkmode .links_table {
+    border-color: #333;
+    background: #222;
+}
+
+.darkmode .episodeinf .areainfo {
+    border-color: #333;
+}
+
+.darkmode .links_table table tbody tr {
+    border-color: #333;
+}
+
+.darkmode .links_table table tbody tr:hover {
+    background: #292929;
+}
+
+.darkmode .links_table table tbody tr td a {
+    color: #ccc;
+}
+
+.darkmode .links_table table tbody tr td strong.quality {
+    background: #333;
+    border-color: #333;
+    color: #ccc;
+}
+
+.darkmode .listabj {
+    border-color: #333;
+}
+
+.darkmode .listttl a {
+    color: #ccc;
+}
+
+.darkmode .listabj a {
+    color: #999;
+}
+.darkmode .tab-dates {
+    background: #333333b8;
+    color: #ccc;
+}
+
+.darkmode h3.notfound {
+    color: #ccc;
+}
+.darkmode .recanim {
+    border-color: #333;
+}
+.darkmode .comments {
+    border-color: #333;
+}
+.darkmode .infoanime .infox .spe span a {
+    color: #ccc;
+}
+.darkmode a.btn.prevf, .darkmode a.btn.nextf {
+    color: #ccc;
+}
+.darkmode #sidebar .widgets ul.genre li {
+    border-color: #333;
+}
+
+.darkmode #sidebar .widgets ul.genre li:hover {
+    background: #33333361;
+}
+
+.darkmode #sidebar .widgets ul.genre li a {
+    color: #ccc!important;
+}
+
+.darkmode .search_desktop #form #s {
+    background: #333333a6;
+    border-color: #4444446e;
+}
+
+.darkmode .search_desktop #form #s::placeholder {
+    color: #ccc!important;
+}
+.darkmode .fullbody .infoanime .thumb {
+    border-color: #222;
+}
+.darkmode .mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #333;
+}
+@media only screen and (max-width: 769px){
+    .darkmode #primary-menu ul li {
+    color: #ccc!important;
+    border-color: #333!important;
+}
+
+.darkmode #primary-menu ul li a {
+    color: #ccc;
+}
+
+.darkmode .inner-switch {
+    color: #ccc;
+    border-color: #333;
+}
+
+
+.darkmode .search_responsive {
+    background: #222;
+    color: #ccc;
+}
+
+.darkmode form.form-resp-ab {
+    border-color: #333;
+}
+
+.darkmode form.form-resp-ab button[type=submit] {
+    color: #ccc;
+}
+
+.darkmode form.form-resp-ab input[type=text] {
+    color: #ccc;
+}
+.darkmode #primary-menu {
+
+background: #222!important;
+}
+}
+
+.darkmode #sidebar .widgets {
+    background: #222;
+}

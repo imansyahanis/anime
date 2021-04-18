@@ -1,0 +1,8 @@
+.smokeddl .smokettl h2,h3,h4{background:none;box-shadow:none;padding:0;margin:0;font-size:14px;text-align:unset}
+.smokeddl .smokettl h2:before{content:none}
+.smokeddl{box-shadow: 0 8px 9px 0 rgba(0,0,0,0.14), 0px -1px 9px -3px rgba(0,0,0,0.19);font-size:12px;font-weight:600;background:#f1f1f1;padding:6px;border-radius:6px}
+.smokeddl .smokettl{padding:10px 10px;color:#FFF;font-size:14px;background:repeating-linear-gradient(-45deg,#333 0,#333 76%,#3f51b5 0,#3f51b5 100%)}
+.smokeddl .smokeurl{margin-top:3px;padding:8px 10px;color:#555;background:#fff;border-bottom:1px solid #ddd}
+.smokeddl .smokeurl a{color:#555;font-size:13px;border-left:2px solid rgba(238,238,238,0.6);border-bottom:2px solid rgba(238,238,238,0.6);padding:7px 6px}
+.smokeddl .smokeurl a:hover{text-decoration:underline;background:#5e72b3;color:white;transition:.6s}
+.smokeurl strong{background:#5e72b3;padding:7px 10px;border-radius:2px;color:#fff;margin-right:5px}
