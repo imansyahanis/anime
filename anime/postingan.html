@@ -5,7 +5,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>ANIME SAMEHADA</title>
 		<link rel="shortcut icon" href="https://anime.samehada.my.id/images/favicon.ico" type="image/x-icon">
-		<link rel="apple-touch-icon-precomposed" href="https://anime.samehada.my.id/images/apple-touch-icon.png">
 		<link rel="stylesheet" href="https://anime.samehada.my.id/css/uikit.min.css">
 		<link rel="stylesheet" href="https://anime.samehada.my.id/css/glide.core.min.css">
 		<link rel="stylesheet" href="https://anime.samehada.my.id/css/style.css">
@@ -25,6 +24,31 @@
 		<!-- Owl Carousel -->
 		<link rel="stylesheet" href="https://anime.samehada.my.id/vendor/owl-carousel/owl.carousel.css">
 		<link rel="stylesheet" href="https://anime.samehada.my.id/vendor/owl-carousel/owl.theme.css">
+		<b:if cond='data:view.isHomepage'>
+		<b:if cond='data:view.isPost'>
+		<b:if cond='data:view.isPage'>
+		<b:if cond='data:blog.url'>
+		<meta expr:content='data:blog.url' property='og:url'/>
+		</b:if>
+		<meta expr:content='data:blog.title' property='og:site_name'/>
+		<b:if cond='data:blog.pageName'>
+		<meta expr:content='data:blog.pageName' property='og:title'/>
+		</b:if></b:if></b:if></b:if>
+		<meta content='blog' property='og:type'/>
+		<b:if cond='data:blog.postImageUrl'>
+		<meta expr:content='data:blog.postImageUrl' property='og:image'/>
+		<b:else/>
+		<b:if cond='data:blog.postImageThumbnailUrl'>
+		<meta expr:content='data:blog.postThumbnailUrl' property='og:image'/>
+		<b:else/>
+		<meta content='https://1.bp.blogspot.com/-VVawjPbteiI/YHs5cwfoDSI/AAAAAAAADpk/cNRD7SrS_d8TJS-u4fw0PgI8KrQ0HUsrQCLcBGAsYHQ/s0/shaman%2Bking.jpg' property='og:image'/>
+		</b:if></b:if>
+		<b:if cond='data:blog.metaDescription'>
+		<meta expr:content='data:blog.metaDescription' property='og:description'/>
+		<b:else/>
+		<meta expr:content='data:post.snippet' property='og:description'/>
+		</b:if>
+		<meta expr:content='data:blog.title' property='og:site_name'/>
     </head>
 	
     <body>
