@@ -137,6 +137,7 @@ br {
    ========================================================================== */
 
 .wrapper {
+	 align-items:center;
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 1366px;
