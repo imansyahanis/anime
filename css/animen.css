@@ -647,3 +647,27 @@ background: #222!important;
 .darkmode #sidebar .widgets {
     background: #222;
 }
+.smokeddl {
+font-size: 13px;
+padding: 5px;
+font-weight: 600;
+background: #123;
+}.smokeddl .smokettl {
+padding: 8px 10px;
+color: #fff;
+background: #2b3e4e;
+}.smokeddl .smokeurl {
+margin-top: 3px;
+padding: 5px 10px;
+color: #555;
+background: #222;
+border-bottom: 1px solid #ddd;
+}.smokeurl strong {
+background: #123456;
+padding: 5px;
+border-radius: 2px;
+color: #fff;
+margin-right: 10px;
+}.smokeddl .smokeurl a {
+color: #fff;
+}
