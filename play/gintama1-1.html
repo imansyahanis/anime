@@ -1,20 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-video {
-    max-width: 100%;
-    height: auto;
-}
-</style>
+<meta charset="UTF-8"/>
+<title>Kabut Hitam</title>
+<link rel="shortcut icon" href="" type="image/x-icon" />
+<meta name="robots" content="noindex" />
+<META NAME="GOOGLEBOT" CONTENT="NOINDEX" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link href="css.css" rel="stylesheet" type="text/css" />
+<script src="js.js"></script>
+<style type="text/css">body,html{margin:0;padding:0}#uplay{position:absolute;width:100%important!;height:100%important!;border:none;overflow:hidden;}</style>
 </head>
 <body>
-<center>
-<video width="700" controls>
-  <source src="https://dl.dropbox.com/s/7ube23h4vtuh9br/samehada.my.id-Gintama%20Live%20Action%20Mitsuba-hen%20-%2001%20%5B360p%5D.mp4?dl=2" type="video/mp4">
-</video>
-</center>
+<div class="container">
+<video controls crossorigin playsinline poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" id="player">
+                <!-- Video files -->
+                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" type="video/mp4" size="576">
+                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4" type="video/mp4" size="720">
+                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4" type="video/mp4" size="1080">
+                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1440p.mp4" type="video/mp4" size="1440">
 
+                <!-- Caption files -->
+                <track kind="captions" label="English" srclang="en" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt"
+                    default>
+                <track kind="captions" label="Français" srclang="fr" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt">
+
+                <!-- Fallback for browsers that don't support the <video> element -->
+                <a href="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" download>Download</a>
+            </video>
+  
+  </div>
 </body>
 </html>
