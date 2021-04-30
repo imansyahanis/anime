@@ -162,7 +162,7 @@ br {
 	color: #fff;
 }
 
-.uk-button-primary { background-color: #7FDBFF; }
+.uk-button-primary { background-color: #007aab; }
 .uk-button-primary:hover
 .uk-button-primary:focus { background-color: #63B1D0; }
 .uk-button-success { background-color: #8cc14c; }
@@ -201,7 +201,7 @@ br {
    ========================================================================== */
 
 .site-header .topbar {
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	color: #fff;
 	padding: 10px 15px;
 	border-radius: 3px 3px 0 0;
@@ -260,7 +260,7 @@ br {
    ========================================================================== */
 
 .site-header .navbar {
-	background: #7FDBFF;
+	background: #007aab;
 	font-family: Montserrat, sans-serif;
 	color: #fff;
 	padding: 10px 15px;
@@ -419,7 +419,7 @@ br {
 	text-decoration: none;
 	color: #ffffff;
 	font-weight: 400;
-	background: #7FDBFF;
+	background: #007aab;
 }
 
 .site-header .navbar ul ul li:last-child > a,
@@ -702,7 +702,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 }
 
 .glide .slide-title {
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -784,7 +784,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
    ========================================================================== */
 
 .ovas-entries-title {
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -835,7 +835,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
    ========================================================================== */
 
 .latest-entries-title {
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -889,7 +889,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
    ========================================================================== */
 
 .latest-posted-title {
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -981,13 +981,13 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 
 .site-pagination .uk-pagination li a:hover,
 .site-pagination .uk-pagination li span:hover {
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	color: #fff;
 	cursor: pointer;
 }
 
 .site-pagination .uk-pagination .uk-active span {
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	color: #fff;
 }
 
@@ -1001,7 +1001,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
    ========================================================================== */
 
 .entry-title {
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -1030,7 +1030,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 	position: absolute;
 	top: 10px;
 	left: 10px;
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	color: #fff;
 	padding: 10px;
 	border-radius: 3px;
@@ -1041,7 +1041,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 }
 
 .entry-content .entry-cover .entry-status {
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	color: #fff;
 	padding: 15px;
 	border-radius: 0 0 3px 3px;
@@ -1062,7 +1062,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 
 .entry-content .entry-details .entry-tabs li {
 	display: inline-block;
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	padding: 15px 20px;
 	border-radius: 3px 3px 0 0;
 }
@@ -1108,7 +1108,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 
 .entry-content .entry-details .uk-switcher dd a {
 	display: inline-block;
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	color: #fff;
 	padding: 5px 10px;
 	border-radius: 3px;
@@ -1205,7 +1205,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 
 .entry-episodes .eplist-title,
 .entry-episodes .specs-title {
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -1327,7 +1327,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 }
 
 .entry-comments .comments-title {
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -1348,7 +1348,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
    ========================================================================== */
 
 .page-title {
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -1371,7 +1371,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 .search-page {}
 
 .search-page .search-page-title {
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	color: #fff;
 	font-size: 18px;
 	font-weight: 700;
@@ -1393,7 +1393,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 }
 
 .search-page .uk-form .uk-button-large {
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	color: #fff;
 	border-radius:  0 3px 3px 0;
 }
@@ -1407,7 +1407,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 }
 
 .search-filters .search-filters-title {
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	color: #fff;
 	font-size: 18px;
 	font-weight: 700;
@@ -1465,7 +1465,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 }
 
 .search-results .search-results-title {
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	color: #fff;
 	font-size: 18px;
 	font-weight: 700;
@@ -1482,7 +1482,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 }
 
 .single-widget .widget-title {
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -1506,7 +1506,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 }
 
 .single-widget .uk-form .uk-button {
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	color: #fff;
 	padding: 5px 15px;
 	border-radius: 0 3px 3px 0;
@@ -1578,11 +1578,11 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 }
 
 .uk-modal-dialog .uk-modal-header {
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	padding: 10px 15px;
 	margin-bottom: 15px;
 	margin:-20px -20px 15px -20px;
-	border-bottom: 1px solid #7FDBFF;
+	border-bottom: 1px solid #007aab;
 	border-radius: 3px 3px 0 0;
 }
 
@@ -1619,7 +1619,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 }
 
 .uk-modal-dialog .uk-modal-footer .uk-button-primary {
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	color: #fff;
 }
 
@@ -1667,7 +1667,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 }
 
 .site-footer .footer {
-	background-color: #7FDBFF;
+	background-color: #007aab;
 	padding: 10px 15px;
 	border-radius: 0 0 3px 3px;
 }
@@ -1681,7 +1681,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     width: 50px;
     height: 50px;
     line-height: 45px;
-    background: #7FDBFF;
+    background: #007aab;
     color: #FAFAFA;
     cursor: pointer;
     border-radius: 3px;
