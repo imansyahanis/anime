@@ -1,18 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-	<!-- Plyr.io Player -->
-	<link rel="stylesheet" href="https://cdn.plyr.io/3.3.12/plyr.css">
+<meta charset="UTF-8">
+<link href="./skins/thin.min.css" rel="stylesheet" type="text/css" />
 </head>
-<body style="margin:0px;">
-	<video poster="https://1.bp.blogspot.com/-YSq_IJUJSI0/YItAzjlQXqI/AAAAAAAADxM/Z2XoTR6rFNIareQ4LSMaL9hZl-zaNhlywCLcBGAsYHQ/s0/anime%2Bsamehada.jpg" id="player" playsinline controls>
-		<source src="https://dl.dropbox.com/s/19tumh5doelkuxc/SAMEHADA.MY.ID-360p-Yasuke.01.mp4?dl=2" type="video/mp4">
-	</video>
-  <track kind="captions" label="Indonesia captions" src="/path/to/captions.vtt" srclang="en" default />
-	<!-- Plyr JS -->
-	<script src="https://cdn.plyr.io/3.3.12/plyr.js"></script>
-	<script>const player = new Plyr('#player');</script>
-  </body>
+<body>
+<center class="player-wrapper">
+<div id="my_video"></div>
+</center>
+<script type="text/javascript" src="./jwplayer-7.3.6/jwplayer.js"></script>
+<script type="text/javascript">jwplayer.key="Ywok59g9j93GtuSU7+axNzjIp/TBfiK4s0vvYg==";</script>
+<script type="text/javascript">
+	//Note: JW Player 7 now requires a license key. Please make sure to include this on your page if you are self-hosting.
+	//jwplayer.key = "Ywok59g9j93GtuSU7+axNzjIp/TBfiK4s0vvYg==";
+	jwplayer('my_video').setup({
+		file: 'https://dl.dropbox.com/s/19tumh5doelkuxc/SAMEHADA.MY.ID-360p-Yasuke.01.mp4?dl=2',
+		image:'https://3.bp.blogspot.com/-YSq_IJUJSI0/YItAzjlQXqI/AAAAAAAADxM/Z2XoTR6rFNIareQ4LSMaL9hZl-zaNhlywCLcBGAsYHQ/s0/anime%2Bsamehada.jpg',
+		width: '100%',
+		height: 546,
+		fluid: true,
+		//autostart: true,
+		skin: {
+			name: "thin"
+		},
+		//Adding your brand: Logo & Right-click
+		logo: {
+			file: '',
+			link: ''
+		},
+		abouttext: "samehada.my.id",
+		aboutlink: "samehada.my.id",
+	});
+</script>
+</body>
 </html>
