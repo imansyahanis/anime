@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<link href="./skins/thin.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<center class="player-wrapper">
+<div id="my_video"></div>
+</center>
+<script type="text/javascript" src="./jwplayer-7.3.6/jwplayer.js"></script>
+<script type="text/javascript">jwplayer.key="Ywok59g9j93GtuSU7+axNzjIp/TBfiK4s0vvYg==";</script>
+<script type="text/javascript">
+	//Note: JW Player 7 now requires a license key. Please make sure to include this on your page if you are self-hosting.
+	//jwplayer.key = "Ywok59g9j93GtuSU7+axNzjIp/TBfiK4s0vvYg==";
+	jwplayer('my_video').setup({
+		file: 'https://dl.dropbox.com/s/tc8wba6ivebg1z7/samehada.my.id-Yuru%20Camp%20Live%20Action%20-%2002%20%282020%29%20%5B480p%5D.mp4?dl=2',
+		image:'',
+		width: '100%',
+		height: 546,
+		fluid: true,
+		//autostart: true,
+		skin: {
+			name: "thin"
+		},
+		//Adding your brand: Logo & Right-click
+		logo: {
+			file: '',
+			link: ''
+		},
+		abouttext: "",
+		aboutlink: "",
+	});
+</script>
+</body>
+</html>
