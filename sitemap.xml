@@ -1765,6 +1765,16 @@
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
-
-
+<url>
+    <loc>https://anime.samehada.my.id/anime/nanatsu-no-taizai-fundo-no-shinpan/17</loc>
+    <lastmod>2021-05-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+<url>
+    <loc>https://anime.samehada.my.id/anime/kyuukyoku-shinka/05</loc>
+    <lastmod>2021-05-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
