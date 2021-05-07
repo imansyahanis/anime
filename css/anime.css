@@ -3843,20 +3843,21 @@ span#filtercount {
 }
 
 
-.alaws321{overflow:hidden}
-.alaws321 .alaws-apb{font-size: 14px;display: block;position: relative;overflow: hidden}
-.alaws321 .alaws-apb a{line-height: 30px;width: 3.704%;color: #FFFFFF;background: #ffffff;transition: all 0.25s;text-align: center;float: left}
-.alaws321 .alaws-apb a:hover{text-decoration: none;background: #ffffff;color: #FFFFFF}
-.alaws321 .alaws-wrap{margin-top: 5px}
-.alaws321 .alaws-group{display: inline-block;width: 100%;margin-bottom: 10px}
-.alaws321 .alaws-head{font-weight: 700;border-bottom: 2px solid #ffffff;font-size: 15px;padding: 5px}
-.alaws321 .alaws-head a{color: #fffafa}
-.alaws321 .alaws-item{float: left;width: 50%;displa}
-.alaws321 .alaws-title{display: list-item;margin-left: 20px}
-.alaws321 .alaws-title a{line-height: 24px;font-size: 14px;color: #fffff;text-overflow: ellipsis;overflow: hidden;white-space: nowrap}}
-@media only screen and (max-width: 768px){.alaws321 .alaws-item{width:50%}}
-@media screen and (max-width:480px){.alaws321 .alaws-item{width:100%}.alaws321 .alaws-apb a{margin: 1px;width: 10.43%}}
-@media screen and (max-width:320px){.alaws321 .alaws-apb a{width: 10.24%}}
+
+.alm321 .alm-info{width: 100%;text-align: center}
+.alm321 .alm-info ul{margin: 0}
+.alm321 .alm-info ul li{border: 1px solid #ddd;margin: 0 0 10px;list-style: none;padding: 8px;display: inline-block;text-align: center}
+.alm321 .alm-apb{text-align: center;font-weight: bold;margin: 10px 0;font-size: 13px}
+.alm321 .alm-apb a{line-height: 30px;width: 30px;color: #FFFFFF;border-radius: 25%;background: #00A3A3;margin: 2px;transition: all 0.25s;display: inline-block}
+.alm321 .alm-apb a:hover{color: #FFFFFF;background: #000000}
+.alm321 .alm-list{display: block;position: relative;overflow: hidden}
+.alm321 .alm-list .alm-wrap{width: 33.333%;float: left}
+.alm321 .alm-list .alm-item ul{margin: 0 !important;padding: 0 6px !important}
+.alm321 .alm-list .alm-item ul .alm-head{font-size: 125%;font-weight:bold}
+.alm321 .alm-list .alm-item ul .alm-head a{color:#000000}
+.alm321 .alm-list .alm-item ul li{list-style: none;font-size:14px}
+.alm321 .alm-list .alm-item ul li a{color:#00A3A3}
+@media only screen and (max-width: 768px){.alm321 .alm-info ul li{width:100%;margin:0 0 2px !important}.alm321 .alm-list .alm-wrap{width:100%}}
 .owl-controls{display:-webkit-inline-box;}
 .tax_fil{display:block;position:relative;padding-left:14px;margin-bottom:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;float:left;width:auto;font-size:13px;margin-left:11px;line-height:25px;}
 .tax_fil input{position:absolute;opacity:0;cursor:pointer;}
